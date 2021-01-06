@@ -4,135 +4,96 @@
  * This is the first thing users see of our App, at the '/' route
  */
 
-import React, { useEffect, memo } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import _ from 'lodash';
+import axios from 'axios';
 import { Helmet } from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
-import { connect } from 'react-redux';
-import { compose } from 'redux';
-import { createStructuredSelector } from 'reselect';
 
-import { useInjectReducer } from 'utils/injectReducer';
-import { useInjectSaga } from 'utils/injectSaga';
-import {
-  makeSelectRepos,
-  makeSelectLoading,
-  makeSelectError,
-} from 'containers/App/selectors';
-import H2 from 'components/H2';
-import ReposList from 'components/ReposList';
-import AtPrefix from './AtPrefix';
-import CenteredSection from './CenteredSection';
-import Form from './Form';
-import Input from './Input';
-import Section from './Section';
-import messages from './messages';
-import { loadRepos } from '../App/actions';
-import { changeUsername } from './actions';
-import { makeSelectUsername } from './selectors';
-import reducer from './reducer';
-import saga from './saga';
+import PageLayout from '../../components/UI/PageLayout';
+import SectionHero from './components/SectionHero';
+import Clients from './components/Clients';
 
-const key = 'home';
-
-export function HomePage({
-  username,
-  loading,
-  error,
-  repos,
-  onSubmitForm,
-  onChangeUsername,
-}) {
-  useInjectReducer({ key, reducer });
-  useInjectSaga({ key, saga });
-
-  useEffect(() => {
-    // When initial state username is not null, submit the form to load repos
-    if (username && username.trim().length > 0) onSubmitForm();
-  }, []);
-
-  const reposListProps = {
-    loading,
-    error,
-    repos,
+class HomePage extends React.Component {
+  state = {
+    clients: [],
+    events: [],
   };
 
-  return (
-    <article>
-      <Helmet>
-        <title>Home Page</title>
-        <meta
-          name="description"
-          content="A React.js Boilerplate application homepage"
-        />
-      </Helmet>
-      <div>
-        <CenteredSection>
-          <H2>
-            <FormattedMessage {...messages.startProjectHeader} />
-          </H2>
-          <p>
-            <FormattedMessage {...messages.startProjectMessage} />
-          </p>
-        </CenteredSection>
-        <Section>
-          <H2>
-            <FormattedMessage {...messages.trymeHeader} />
-          </H2>
-          <Form onSubmit={onSubmitForm}>
-            <label htmlFor="username">
-              <FormattedMessage {...messages.trymeMessage} />
-              <AtPrefix>
-                <FormattedMessage {...messages.trymeAtPrefix} />
-              </AtPrefix>
-              <Input
-                id="username"
-                type="text"
-                placeholder="mxstbr"
-                value={username}
-                onChange={onChangeUsername}
-              />
-            </label>
-          </Form>
-          <ReposList {...reposListProps} />
-        </Section>
-      </div>
-    </article>
-  );
+  async getEvents() {
+    try {
+      const { data } = await axios.get(`http://34.197.2.103/api/events`);
+      this.setState({
+        events: data,
+      });
+    } catch (err) {
+      console.log(err.message);
+    }
+  }
+
+  async getCompanies() {
+    try {
+      const { data } = await axios.get(`http://34.197.2.103/api/companies`);
+      this.setState({
+        clients: data,
+      });
+    } catch (err) {
+      console.log(err.message);
+    }
+  }
+
+  async componentDidMount() {
+    this.getEvents();
+    this.getCompanies();
+  }
+
+  render() {
+    const { clients, events } = this.state;
+
+    if (!clients || _.isEmpty(clients.companies)) {
+      return null;
+    }
+
+    if (!events || _.isEmpty(events.Events)) {
+      return null;
+    }
+
+    let renderedEvents = [];
+
+    if (events && events.Events) {
+      const arr1 = events.Events;
+      const arr2 = clients.companies;
+
+      const eventsArray = arr1.map(it1 => {
+        /* eslint no-param-reassign: "error" */
+
+        // if (typeof it1.company !== undefined) {
+        it1.company = arr2.find(it2 => it2.id === it1.company_id);
+        // }
+
+        return it1;
+      });
+
+      renderedEvents = eventsArray;
+    }
+
+    return (
+      <React.Fragment>
+        <Helmet>
+          <title>Home Page</title>
+          <meta
+            name="description"
+            content="A React.js Boilerplate application homepage"
+          />
+        </Helmet>
+
+        <PageLayout>
+          <SectionHero events={renderedEvents} />
+
+          <Clients clients={clients.companies} />
+        </PageLayout>
+      </React.Fragment>
+    );
+  }
 }
 
-HomePage.propTypes = {
-  loading: PropTypes.bool,
-  error: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
-  repos: PropTypes.oneOfType([PropTypes.array, PropTypes.bool]),
-  onSubmitForm: PropTypes.func,
-  username: PropTypes.string,
-  onChangeUsername: PropTypes.func,
-};
-
-const mapStateToProps = createStructuredSelector({
-  repos: makeSelectRepos(),
-  username: makeSelectUsername(),
-  loading: makeSelectLoading(),
-  error: makeSelectError(),
-});
-
-export function mapDispatchToProps(dispatch) {
-  return {
-    onChangeUsername: evt => dispatch(changeUsername(evt.target.value)),
-    onSubmitForm: evt => {
-      if (evt !== undefined && evt.preventDefault) evt.preventDefault();
-      dispatch(loadRepos());
-    },
-  };
-}
-
-const withConnect = connect(
-  mapStateToProps,
-  mapDispatchToProps,
-);
-
-export default compose(
-  withConnect,
-  memo,
-)(HomePage);
+export default HomePage;

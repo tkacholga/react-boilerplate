@@ -1,0 +1,171 @@
+{
+  "app.containers.HomePage.misterMonsieur": "M.",
+
+  "app.containers.HomePage.manageAccountButton": "Gérer Mon Compte",
+
+  "app.containers.HomePage.dropDownPosition1": "Conseiller Financier",
+  "app.containers.HomePage.dropDownPosition2": "Investisseur Individuel",
+  "app.containers.HomePage.dropDownPosition3": "Courtier Autorisé",
+
+  "app.containers.HomePage.topMenuAbout": "À propos de Renmark",
+  "app.containers.HomePage.topMenuOurTeam": "Notre Équipe",
+  "app.containers.HomePage.topMenuSubscribe": "Souscrire",
+  "app.containers.HomePage.topMenuCareers": "Carrières",
+  "app.containers.HomePage.topMenuSigninButton": "Ouvrez une session",
+  "app.containers.HomePage.topMenuSignoutButton": "Fermez la session",
+
+  "app.containers.HomePage.menuNews": "Salle de presse",
+  "app.containers.HomePage.menuEvents": "Événements organisés",
+  "app.containers.HomePage.menuServices": "Services IR",
+  "app.containers.HomePage.menuClients": "Nos Clients",
+  "app.containers.HomePage.menuSocial": "Des médias sociaux",
+  "app.containers.HomePage.menuContact": "Contactez-nous",
+
+  "app.containers.HomePage.companyTitle": "Communications financières Renmark",
+  "app.containers.HomePage.companyDescription": "est une entreprise de relations avec les investisseurs offrant des services complets et représentant des sociétés cotées en bourse cotées sur tous les principaux marchés nord-américains.",
+
+  "app.containers.HomePage.heroTitle": "Industrie définissant la firme d'IR",
+  "app.containers.HomePage.heroNumbers": "21 ans. 50,000 Relations Gagnées.",
+  "app.containers.HomePage.heroSubtitle": " met en relation nos clients avec des acteurs clés du secteur financier. Nous proposons aux actionnaires les informations les plus récentes grâce à notre équipe de professionnels des relations avec les investisseurs.",
+  "app.containers.HomePage.buttonContact": "Contactez nous",
+  "app.containers.HomePage.buttonLearnMore": "En savoir plus sur nous",
+  "app.containers.HomePage.seeAllEvents": "Tous les événements",
+
+  "app.containers.HomePage.categoryAll": "Tous les secteurs",
+  "app.containers.HomePage.categoryEnergy": "Énergie",
+  "app.containers.HomePage.categoryFinance": "Finance",
+  "app.containers.HomePage.categoryLifeScience": "Science de la vie",
+  "app.containers.HomePage.categoryMining": "Exploitation minière",
+
+  "app.containers.HomePage.allDates": "Toutes les dates",
+  "app.containers.HomePage.todayDate": "Aujourd'hui",
+  "app.containers.HomePage.tomorrowDate": "Demain",
+  "app.containers.HomePage.pickDate": "Choisissez la date",
+
+  "app.containers.HomePage.eventSearchTitle": "Trouvez un événement près de chez vous",
+  "app.containers.HomePage.eventSearchButton": "Chercher",
+
+  "app.containers.HomePage.cardRegisterButton": "Registre",
+  "app.containers.HomePage.cardMoreInfoButton": "Plus d'info",
+  "app.containers.HomePage.cardAddToCalendarButton": "Ajouter au calendrier",
+
+  "app.containers.HomePage.eventPresentationText": "Présentation corporative",
+  "app.containers.HomePage.eventDetailsText": "Détails de l'évènement",
+
+  "app.containers.HomePage.eventsSection_ViewAllEventsButton": "Voir tous les événements",
+
+  "app.containers.HomePage.clientsSection_SliderTitle": "RENMARK Client Fiches:",
+  "app.containers.HomePage.clientsSection_SliderSeeAll": "VOIR TOUT",
+
+  "app.containers.HomePage.aboutSection_Title": "À propos de Renmark",
+  "app.containers.HomePage.aboutSection_Title1": "NOUS SOMMES LA PIECE MANQUANTE",
+  "app.containers.HomePage.aboutSection_Title2": "DANS VOS AFFAIRES",
+
+  "app.containers.HomePage.aboutSection_Paragraph1": "Le succès d’une entreprise sur les marchés financiers dépend en grande partie de sa visibilité et de sa capacité à communiquer avec la communauté financière.",
+  "app.containers.HomePage.aboutSection_Paragraph2": "Chez Renmark, notre gamme étendue de services offre à nos clients une grande flexibilité dans le choix d’un ensemble de services adapté à leurs besoins. Nous sommes fiers de communiquer efficacement les histoires de clients de Renmark au sein de la communauté financière et de maintenir un lien entre la direction de la société et les actionnaires actuels et potentiels.",
+  "app.containers.HomePage.aboutSection_Paragraph3": "Notre engagement total en faveur de la qualité et de l'excellence permet à la direction des entreprises clientes de Renmark de prendre en charge leurs affaires courantes, en toute confiance. Nous sommes convaincus que cet état d’esprit nous propulsera de devenir la première société de relations avec les investisseurs d’Amérique du Nord au service des petites, moyennes et grandes capitalisations.",
+  "app.containers.HomePage.aboutSection_Paragraph4": "Nous progressons dans l’avenir avec l’intention de continuer à explorer de nouvelles technologies, de nouveaux médiums et des moyens novateurs d’atteindre votre marché cible en votre nom. C’est cette recherche constante de l’excellence qui a donné et continuera d’apporter à Renmark l’avantage dont nous avons besoin pour rester l’un des chefs de file des sociétés de relations avec les investisseurs et de communication d’entreprise en Amérique du Nord.",
+  "app.containers.HomePage.aboutSection_Paragraph5": "Rejoignez Renmark et différenciez-vous des autres.",
+
+  "app.containers.HomePage.subscribeSection_Title": "Abonnez-vous à la lettre d'information de Communications Financières Renmark",
+  "app.containers.HomePage.subscribeSection_Subtitle": "Pour recevoir les dernières informations sur les investisseurs directement dans votre boîte de réception",
+  "app.containers.HomePage.subscribeSection_emailInputText": "Adresse de courriel",
+  "app.containers.HomePage.subscribeSection_buttonText": "Souscrire",
+
+  "app.containers.HomePage.clientsSection_Title": "Nos Clients",
+  "app.containers.HomePage.clientsSection_Subtitle": "Cliquez sur le logo pour voir la fiche d'information",
+  "app.containers.HomePage.clientsSection_SeeAllClientsButton": "Voir tous les clients",
+
+  "app.containers.HomePage.servicesSection_Title": "Nos Services",
+  "app.containers.HomePage.servicesSection_Subtitle": "Nous offrons des services aux sociétés ouvertes de petite, moyenne et grande capitalisation négociées sur toutes les bourses nord-américaines.",
+  "app.containers.HomePage.servicesSection_IRTitle": "Relations avec les investisseurs",
+  "app.containers.HomePage.servicesSection_IRSubtitle": "Développer avec une équipe solide. Renmark rejoint plus de 800 conseillers influents par jour en Amérique du Nord.",
+  "app.containers.HomePage.servicesSection_IR_Institutional": "Institutionnel",
+  "app.containers.HomePage.servicesSection_IR_Retail": "Vente au détail",
+  "app.containers.HomePage.servicesSection_MediaTitle": "Relations avec les médias",
+  "app.containers.HomePage.servicesSection_MediaSubtitle": "Nos relations étroites avec les agences de presse nous permettent de mettre vos nouvelles devant ceux qui les créent.",
+  "app.containers.HomePage.servicesSection_Media_services": "Services de médias",
+  "app.containers.HomePage.servicesSection_WebTitle": "Développement web",
+  "app.containers.HomePage.servicesSection_WebSubtitle": "Nous pouvons fournir le lien entre la technologie Internet, le style Web contemporain et l'expertise financière.",
+  "app.containers.HomePage.servicesSection_Web_services": "Services de web",
+
+  "app.containers.HomePage.footerAbout": "Liens rapides",
+  "app.containers.HomePage.footerSectionTitle": "Ressources et Liens Rapides",
+  "app.containers.HomePage.footerCompanyText": "Communications financières Renmark est une société de relations avec les investisseurs offrant une gamme complète de services et représentant des sociétés ouvertes à petite, moyenne et grande capitalisation cotées sur les principales bourses nord-américaines.",
+  "app.containers.HomePage.footerCompany": "Compagnie",
+  "app.containers.HomePage.footerClients": "Clients",
+  "app.containers.HomePage.footerServices": "Services",
+
+  "app.containers.HomePage.footerEvents": "Événements & Nouvelles",
+  "app.containers.HomePage.footerUpcomingEvents": "Événements à venir",
+  "app.containers.HomePage.footerRegister": "Registre",
+  "app.containers.HomePage.footerSignIn": "Ouvrir une session",
+
+  "app.containers.HomePage.footerContacts": "Contacts",
+  "app.containers.HomePage.footerOurOffices": "Nos Bureaux",
+
+  "app.containers.HomePage.footerSocial": "Social",
+  "app.containers.HomePage.footerSocialMedia": "Des médias sociaux",
+
+  "app.containers.HomePage.footerRenmarkOffices": "Bureaux Renmark",
+
+  "app.containers.HomePage.footerDisclaimerParagraph1": "Communications financières Renmark inc.  n'a aucun intérêt, directement ou indirectement, sur les clients énumérés sur ce site Web ou ses titres, ni aucun droit ou intention d'acquérir un tel intérêt.",
+  "app.containers.HomePage.footerDisclaimerParagraph2": "Données du marché financier générées par la source. Tous les droits sont réservés. Consultez les conditions d'utilisation des sources. Citations et autres données différées de 15 minutes pour NYSE / NYSE-AMERICAN / NASDAQ / OTC, 20 minutes pour TSX / TSX-V / CSE, sauf indication contraire.",
+  "app.containers.HomePage.footerDisclaimerParagraph3": "Communications financières Renmark inc. n'est pas un courtier agréé, un teneur de marché, un conseiller en investissement ou un preneur ferme. Toutes les informations que nous fournissons sont uniquement à des fins d'information et ne doivent pas être interprétées comme une offre ou une sollicitation d'offre d'achat ou de vente de titres. De plus, investir dans de tels titres comporte un risque de perte important et les investisseurs devraient consulter un professionnel de la finance avant d’investir.",
+
+  "app.containers.HomePage.footerPolicy": "Politique",
+  "app.containers.HomePage.footerPrivacyLinksPrivacy": "Intimité",
+  "app.containers.HomePage.footerPrivacyLinksDisclosure": "Divulgation",
+  "app.containers.HomePage.footerPrivacyLinksSecurity": "Sécurité",
+  "app.containers.HomePage.footerPrivacyLinksTermsOfUse": "Conditions d'utilisation",
+  "app.containers.HomePage.footerPrivacyLinksSiteMap": "Plan du site",
+
+  "app.containers.HomePage.footerCopyrightText": "Communications financières Renmark inc.  Tous droits réservés.",
+
+  "app.containers.SigninPage.question": "Vous n'avez pas de compte?",
+  "app.containers.SigninPage.registerButton": "S'inscrire",
+  "app.containers.SigninPage.titleText": "Ouvrir une session",
+  "app.containers.SigninPage.emailInputText": "Adresse de courriel",
+  "app.containers.SigninPage.passwordInputText": "Mot de passe",
+  "app.containers.SigninPage.forgotText": "Vous avez oublié votre mot de passe?",
+  "app.containers.SigninPage.signinButton": "Ouverture de session",
+  "app.containers.SigninPage.copyrightText": "© 1999 - 2021 Communications financières Renmark inc.  Tous droits réservés.",
+
+  "app.containers.RegisterPage.question": "Vous êtes déjà inscrit?",
+  "app.containers.RegisterPage.signinButton": "Ouverture de session",
+  "app.containers.RegisterPage.titleText": "Inscription",
+  "app.containers.RegisterPage.firstNameInputText": "Prénom",
+  "app.containers.RegisterPage.lastNameInputText": "Nom de famille",
+  "app.containers.RegisterPage.firmInputText": "Nom de l'entreprise",
+  "app.containers.RegisterPage.emailInputText": "Addresse de courriel",
+  "app.containers.RegisterPage.phoneInputText": "Numéro de téléphone",
+  "app.containers.RegisterPage.passwordInputText": "Mot de passe",
+  "app.containers.RegisterPage.confirmPasswordInputText": "Confirmez le mot de passe",
+  "app.containers.RegisterPage.registerButton": "S'inscrire",
+  "app.containers.RegisterPage.copyrightText": "© 1999 - 2021 Communications financières Renmark inc.  Tous droits réservés.",
+
+  "app.containers.ResetPasswordPage.question": "Vous n'avez pas de compte?",
+  "app.containers.ResetPasswordPage.registerButton": "S'inscrire",
+  "app.containers.ResetPasswordPage.titleText": "Réinitialisez votre mot de passe",
+  "app.containers.ResetPasswordPage.emailInputText": "Adresse de courriel",
+  "app.containers.ResetPasswordPage.forgotText": "Si vous avez oublié votre mot de passe, ou si vous avez besoin de le réinitialiser pour tout autre raison, veuillez inscrire l’adresse courriel que vous avez utilisée pour vous inscrire. Nous vous enverrons le lien ainsi que les instructions à suivre afin de procéder à une mise à jour de votre mot de passe.",
+  "app.containers.ResetPasswordPage.submitButton": "Soumettre",
+  "app.containers.ResetPasswordPage.copyrightText": "© 1999 - 2021 Communications financières Renmark inc.  Tous droits réservés.",
+
+  "app.containers.NewsIndexPage.pageTitle": "Salle de presse de Renmark",
+
+  "app.containers.EventsIndexPage.pageTitle": "Événements Organisés",
+
+  "app.containers.ServicesPage.pageTitle": "Services de relations avec les investisseurs",
+
+  "app.containers.ClientsPage.pageTitle": "Nos Clients",
+
+  "app.containers.ContactPage.pageTitle": "Contactez-Nous",
+
+  "app.containers.InvestorPage.pageTitle": "Relations avec les investisseurs",
+  "app.containers.MediaPage.pageTitle": "Relations avec les médias",
+  "app.containers.WebPage.pageTitle": "Développement Web",
+
+  "app.containers.LocaleToggle.fr": "",
+  "app.containers.LocaleToggle.en": ""
+}

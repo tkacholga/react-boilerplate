@@ -1,31 +1,174 @@
 {
-  "boilerplate.components.Footer.author.message": "Made with love by {author}.",
-  "boilerplate.components.Footer.license.message": "This project is licensed under the MIT license.",
-  "boilerplate.components.Header.features": "Features",
-  "boilerplate.components.Header.home": "Home",
-  "boilerplate.containers.FeaturePage.css.header": "Features",
-  "boilerplate.containers.FeaturePage.css.message": "Next generation CSS",
-  "boilerplate.containers.FeaturePage.feedback.header": "Instant feedback",
-  "boilerplate.containers.FeaturePage.feedback.message": "Enjoy the best DX and code your app at the speed of thought! Your\n    saved changes to the CSS and JS are reflected instantaneously\n    without refreshing the page. Preserve application state even when\n    you update something in the underlying code!",
-  "boilerplate.containers.FeaturePage.header": "Features",
-  "boilerplate.containers.FeaturePage.internationalization.header": "Complete i18n Standard Internationalization & Pluralization",
-  "boilerplate.containers.FeaturePage.internationalization.message": "Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.",
-  "boilerplate.containers.FeaturePage.javascript.header": "Next generation JavaScript",
-  "boilerplate.containers.FeaturePage.javascript.message": "Use template strings, object destructuring, arrow functions, JSX\n    syntax and more, today.",
-  "boilerplate.containers.FeaturePage.network.header": "Offline-first",
-  "boilerplate.containers.FeaturePage.network.message": "The next frontier in performant web apps: availability without a\n      network connection from the instant your users load the app.",
-  "boilerplate.containers.FeaturePage.routing.header": "Industry-standard routing",
-  "boilerplate.containers.FeaturePage.routing.message": "Write composable CSS that's co-located with your components for\n    complete modularity. Unique generated class names keep the\n    specificity low while eliminating style clashes. Ship only the\n    styles that are on the page for the best performance.",
-  "boilerplate.containers.FeaturePage.scaffolding.header": "Quick scaffolding",
-  "boilerplate.containers.FeaturePage.scaffolding.message": "Automate the creation of components, containers, routes, selectors\n  and sagas - and their tests - right from the CLI!",
-  "boilerplate.containers.FeaturePage.state_management.header": "Predictable state management",
-  "boilerplate.containers.FeaturePage.state_management.message": "Unidirectional data flow allows for change logging and time travel\n    debugging.",
-  "boilerplate.containers.HomePage.start_project.header": "Start your next react project in seconds",
-  "boilerplate.containers.HomePage.start_project.message": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
-  "boilerplate.containers.HomePage.tryme.atPrefix": "@",
-  "boilerplate.containers.HomePage.tryme.header": "Try me!",
-  "boilerplate.containers.HomePage.tryme.message": "Show Github repositories by",
-  "boilerplate.containers.LocaleToggle.de": "de",
-  "boilerplate.containers.LocaleToggle.en": "en",
-  "boilerplate.containers.NotFoundPage.header": "Page not found."
+  "app.containers.HomePage.misterMonsieur": "Mr.",
+
+  "app.containers.HomePage.manageAccountButton": "Manage My Account",
+
+  "app.containers.HomePage.dropDownPosition1": "Financial Advisor",
+  "app.containers.HomePage.dropDownPosition2": "Individual Investor",
+  "app.containers.HomePage.dropDownPosition3": "Licensed Broker",
+
+  "app.containers.HomePage.topMenuAbout": "About Renmark",
+  "app.containers.HomePage.topMenuOurTeam": "Our Team",
+  "app.containers.HomePage.topMenuSubscribe": "Subscribe",
+  "app.containers.HomePage.topMenuCareers": "Careers",
+  "app.containers.HomePage.topMenuSigninButton": "Sign In",
+  "app.containers.HomePage.topMenuSignoutButton": "Sign Out",
+
+  "app.containers.HomePage.menuNews": "Newsroom",
+  "app.containers.HomePage.menuEvents": "Hosted Events",
+  "app.containers.HomePage.menuServices": "IR Services",
+  "app.containers.HomePage.menuClients": "Our Clients",
+  "app.containers.HomePage.menuSocial": "Social Media",
+  "app.containers.HomePage.menuContact": "Contact Us",
+
+  "app.containers.HomePage.companyTitle": "Renmark Financial Communications",
+  "app.containers.HomePage.companyDescription": "is a leading full service investor relations firm representing publicly traded companies listed on all major North American markets.",
+
+  "app.containers.HomePage.heroTitle": "Industry Defining IR Firm",
+  "app.containers.HomePage.heroNumbers": "21 Years. 50,000 Relationships, Earned.",
+  "app.containers.HomePage.heroSubtitle": " connects our clients with key players in the financial industry. We offer shareholders the most up-to-date information through our team of Investor Relations professionals.",
+  "app.containers.HomePage.buttonContact": "Contact us",
+  "app.containers.HomePage.buttonLearnMore": "More about us",
+  "app.containers.HomePage.seeAllEvents": "See all events",
+
+  "app.containers.HomePage.categoryAll": "All sectors",
+  "app.containers.HomePage.categoryEnergy": "Energy",
+  "app.containers.HomePage.categoryFinance": "Finance",
+  "app.containers.HomePage.categoryLifeScience": "Life science",
+  "app.containers.HomePage.categoryMining": "Mining",
+
+  "app.containers.HomePage.allDates": "All dates",
+  "app.containers.HomePage.todayDate": "Today",
+  "app.containers.HomePage.tomorrowDate": "Tomorrow",
+  "app.containers.HomePage.pickDate": "Pick date",
+
+  "app.containers.HomePage.eventSearchTitle": "Find a VNDR near you",
+  "app.containers.HomePage.eventSearchButton": "Search",
+
+  "app.containers.HomePage.cardRegisterButton": "Register",
+  "app.containers.HomePage.cardMoreInfoButton": "More Info",
+  "app.containers.HomePage.cardAddToCalendarButton": "Add to Calendar",
+
+  "app.containers.HomePage.eventPresentationText": "Corporate Presentation",
+  "app.containers.HomePage.eventDetailsText": "Event Details",
+
+  "app.containers.HomePage.eventsSection_ViewAllEventsButton": "View all events",
+
+  "app.containers.HomePage.clientsSection_SliderTitle": "RENMARK Client Factsheets:",
+  "app.containers.HomePage.clientsSection_SliderSeeAll": "SEE ALL",
+
+  "app.containers.HomePage.aboutSection_Title": "About Renmark",
+  "app.containers.HomePage.aboutSection_Title1": "WE ARE THE MISSING PIECE",
+  "app.containers.HomePage.aboutSection_Title2": "IN YOUR BUSINESS",
+
+  "app.containers.HomePage.aboutSection_Paragraph1": "A company's success in the financial markets depends greatly on its visibility, as well as its ability to communicate with the financial community.",
+  "app.containers.HomePage.aboutSection_Paragraph2": "At Renmark, our extensive suite of services provides our customers with great flexibility in choosing a service package congruent to their needs. We pride ourselves to effectively communicate Renmark client stories within the financial community and maintain a link between Company management and current and prospective shareholders.",
+  "app.containers.HomePage.aboutSection_Paragraph3": "Our total commitment to quality, and excellence, allows the management of Renmark client companies to take care of their day-to-day affairs, with confidence. We are certain that this mindset will propel us to becoming North America's premiere investor relations firm serving small, mid and large cap companies.",
+  "app.containers.HomePage.aboutSection_Paragraph4": "We move forward into the future with the intent on continuing to explore new technologies, new mediums and innovative ways of reaching your target market on your behalf. It is this constant striving for excellence that has given and will continue to give Renmark the edge we need to remain one of North America's leading investor relations and corporate communications firms.",
+  "app.containers.HomePage.aboutSection_Paragraph5": "Join Renmark and differentiate yourself from others.",
+
+  "app.containers.HomePage.subscribeSection_Title": "Subscribe to Renmark Financial Communications Inc. Newsletter",
+  "app.containers.HomePage.subscribeSection_Subtitle": "To get the latest investor news delivered directly to your inbox",
+  "app.containers.HomePage.subscribeSection_emailInputText": "Email Address",
+  "app.containers.HomePage.subscribeSection_buttonText": "Subscribe",
+
+  "app.containers.HomePage.clientsSection_Title": "Our Clients",
+  "app.containers.HomePage.clientsSection_Subtitle": "Click on logo to view factsheet",
+  "app.containers.HomePage.clientsSection_SeeAllClientsButton": "See all clients",
+
+  "app.containers.HomePage.servicesSection_Title": "Our Services",
+  "app.containers.HomePage.servicesSection_Subtitle": "We offer services to small, medium, and large capitalization public companies traded on all North American exchanges.",
+  "app.containers.HomePage.servicesSection_IRTitle": "Investor Relations",
+  "app.containers.HomePage.servicesSection_IRSubtitle": "Scale up with a solid team. Renmark reaches over 800 influential advisors per day throughout North America.",
+  "app.containers.HomePage.servicesSection_IR_Institutional": "Institutional",
+  "app.containers.HomePage.servicesSection_IR_Retail": "Retail",
+  "app.containers.HomePage.servicesSection_MediaTitle": "Media Relations",
+  "app.containers.HomePage.servicesSection_MediaSubtitle": "Our strong relationships with news organizations enable us to put your news in front of those who create it.",
+  "app.containers.HomePage.servicesSection_Media_services": "Media services",
+  "app.containers.HomePage.servicesSection_WebTitle": "Web Development",
+  "app.containers.HomePage.servicesSection_WebSubtitle": "We can provide the link between internet technology, contemporary web style and financial expertise.",
+  "app.containers.HomePage.servicesSection_Web_services": "Web services",
+
+  "app.containers.HomePage.footerAbout": "Quick Links",
+  "app.containers.HomePage.footerSectionTitle": "Resources & Quick Links",
+  "app.containers.HomePage.footerCompanyText": "Renmark Financial Communications is a full service investor relations firm representing small, medium and large cap public companies trading on all major North American exchanges.",
+  "app.containers.HomePage.footerCompany": "Company",
+  "app.containers.HomePage.footerClients": "Clients",
+  "app.containers.HomePage.footerServices": "Services",
+
+  "app.containers.HomePage.footerEvents": "Events & News",
+  "app.containers.HomePage.footerUpcomingEvents": "Upcoming events",
+  "app.containers.HomePage.footerRegister": "Register",
+  "app.containers.HomePage.footerSignIn": "Sign In",
+
+  "app.containers.HomePage.footerContacts": "Contacts",
+  "app.containers.HomePage.footerOurOffices": "Our Offices",
+
+  "app.containers.HomePage.footerSocial": "Social",
+  "app.containers.HomePage.footerSocialMedia": "Social Media",
+
+  "app.containers.HomePage.footerRenmarkOffices": "Renmark Offices",
+
+  "app.containers.HomePage.footerDisclaimerParagraph1": "Renmark Financial Communications Inc. does not have any interest, directly or indirectly, in the clients listed on this website or its securities, or any right or intent to acquire such an interest.",
+  "app.containers.HomePage.footerDisclaimerParagraph2": "Financial Market Data powered by Source. All rights reserved. View the Source Terms of Use Quotes and other data delayed by 15 minutes for NYSE/NYSE-AMERICAN/NASDAQ/OTC, 20 minutes for TSX/TSX-V/CSE unless otherwise indicated.",
+  "app.containers.HomePage.footerDisclaimerParagraph3": "Renmark Financial Communications Inc. is not a licensed broker-dealer, market maker, investment advisor, or underwriter. All information that we provide is for informational purposes only and should not be construed as an offer or solicitation of an offer to buy or sell securities. Furthermore, investing in such securities involves substantial risk of loss and investors should seek advice from financial professionals before investing.",
+
+  "app.containers.HomePage.footerPolicy": "Policy",
+  "app.containers.HomePage.footerPrivacyLinksPrivacy": "Privacy",
+  "app.containers.HomePage.footerPrivacyLinksDisclosure": "Disclosure",
+  "app.containers.HomePage.footerPrivacyLinksSecurity": "Security",
+  "app.containers.HomePage.footerPrivacyLinksTermsOfUse": "Terms of use",
+  "app.containers.HomePage.footerPrivacyLinksSiteMap": "Site map",
+
+  "app.containers.HomePage.footerCopyrightText": "Renmark Financial Communications Inc. All Rights Reserved.",
+
+  "app.containers.SigninPage.question": "Don't have an account?",
+  "app.containers.SigninPage.registerButton": "Register",
+  "app.containers.SigninPage.titleText": "Sign In",
+  "app.containers.SigninPage.emailInputText": "Email Address",
+  "app.containers.SigninPage.passwordInputText": "Password",
+  "app.containers.SigninPage.forgotText": "Forgot Your Password?",
+  "app.containers.SigninPage.signinButton": "Sign In",
+  "app.containers.SigninPage.copyrightText": "© 1999 - 2020 Renmark Financial Communications Inc. All Rights Reserved.",
+
+  "app.containers.RegisterPage.question": "Already registered?",
+  "app.containers.RegisterPage.signinButton": "Sign In",
+  "app.containers.RegisterPage.firstNameInputText": "First Name",
+  "app.containers.RegisterPage.lastNameInputText": "Last Name",
+  "app.containers.RegisterPage.firmInputText": "Firm Name",
+  "app.containers.RegisterPage.emailInputText": "Email Address",
+  "app.containers.RegisterPage.phoneInputText": "Phone Number",
+  "app.containers.RegisterPage.passwordInputText": "Password",
+  "app.containers.RegisterPage.confirmPasswordInputText": "Confirm Password",
+
+  "app.containers.RegisterPage.titleText": "Register",
+  "app.containers.RegisterPage.registerButton": "Register",
+
+  "app.containers.RegisterPage.copyrightText": "© 1999 - 2020 Renmark Financial Communications Inc. All Rights Reserved.",
+
+  "app.containers.ResetPasswordPage.question": "Don't have an account?",
+  "app.containers.ResetPasswordPage.registerButton": "Register",
+  "app.containers.ResetPasswordPage.titleText": "Reset your password",
+  "app.containers.ResetPasswordPage.emailInputText": "Email Address",
+  "app.containers.ResetPasswordPage.forgotText": "If you forgot your password or need to reset it for another reason, please enter the email address used to register for your account. We will send you a link and instructions on how to update your password.",
+  "app.containers.ResetPasswordPage.submitButton": "Submit",
+
+  "app.containers.ResetPasswordPage.copyrightText": "© 1999 - 2020 Renmark Financial Communications Inc. All Rights Reserved.",
+
+  "app.containers.NewsIndexPage.pageTitle": "Renmark's Newsroom",
+
+  "app.containers.EventsIndexPage.pageTitle": "Hosted Events",
+
+  "app.containers.ServicesPage.pageTitle": "Investor Relations Services",
+
+  "app.containers.ClientsPage.pageTitle": "Our Clients",
+
+  "app.containers.ContactPage.pageTitle": "Contact Us",
+
+  "app.containers.InvestorPage.pageTitle": "Investor Relations",
+  "app.containers.MediaPage.pageTitle": "Media Relations",
+  "app.containers.WebPage.pageTitle": "Web Development",
+
+  "app.containers.LocaleToggle.fr": "fr",
+  "app.containers.LocaleToggle.en": "en"
 }
